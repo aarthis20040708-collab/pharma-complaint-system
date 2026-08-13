@@ -1,0 +1,25 @@
+# Python virtualenv & cache
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/agent/__pycache__/
+backend/app/routes/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database
+backend/*.db
+backend/*.sqlite3
+
+# Environment Variables (Keep .env local, push .env.example)
+backend/.env
+
+# Node modules & frontend build dist
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS Files
+.DS_Store
+Thumbs.db
